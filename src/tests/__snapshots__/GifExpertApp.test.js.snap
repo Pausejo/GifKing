@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifExpertApp should show component correctly 1`] = `
+Array [
+  <div
+    className="divtitle"
+  >
+    <h1>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-crown icon"
+          data-icon="crown"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M576 136c0 22.09-17.91 40-40 40c-.248 0-.4551-.1266-.7031-.1305l-50.52 277.9C482 468.9 468.8 480 453.3 480H122.7c-15.46 0-28.72-11.06-31.48-26.27L40.71 175.9C40.46 175.9 40.25 176 39.1 176c-22.09 0-40-17.91-40-40S17.91 96 39.1 96s40 17.91 40 40c0 8.998-3.521 16.89-8.537 23.57l89.63 71.7c15.91 12.73 39.5 7.544 48.61-10.68l57.6-115.2C255.1 98.34 247.1 86.34 247.1 72C247.1 49.91 265.9 32 288 32s39.1 17.91 39.1 40c0 14.34-7.963 26.34-19.3 33.4l57.6 115.2c9.111 18.22 32.71 23.4 48.61 10.68l89.63-71.7C499.5 152.9 496 144.1 496 136C496 113.9 513.9 96 536 96S576 113.9 576 136z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+         Gif King
+        <br />
+        <img
+          className="powered"
+          src="https://i.loli.net/2018/10/24/5bd0957e29193.gif"
+        />
+      </div>
+    </h1>
+  </div>,
+  <form
+    data-testid="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="row"
+    >
+      <input
+        className="balloon"
+        id="category"
+        onChange={[Function]}
+        placeholder="Ingrese la categoría"
+        type="text"
+        value=""
+      />
+      <label
+        htmlFor="category"
+      >
+        Category
+      </label>
+    </div>
+  </form>,
+  <h3
+    className="trending"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-arrow-trend-up "
+      data-icon="arrow-trend-up"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 576 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M384 160C366.3 160 352 145.7 352 128C352 110.3 366.3 96 384 96H544C561.7 96 576 110.3 576 128V288C576 305.7 561.7 320 544 320C526.3 320 512 305.7 512 288V205.3L342.6 374.6C330.1 387.1 309.9 387.1 297.4 374.6L191.1 269.3L54.63 406.6C42.13 419.1 21.87 419.1 9.372 406.6C-3.124 394.1-3.124 373.9 9.372 361.4L169.4 201.4C181.9 188.9 202.1 188.9 214.6 201.4L320 306.7L466.7 159.1L384 160z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+     Trending
+  </h3>,
+  <ol
+    className="filters"
+  />,
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-arrows-rotate fa-spin fa-1x "
+    data-icon="arrows-rotate"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M464 16c-17.67 0-32 14.31-32 32v74.09C392.1 66.52 327.4 32 256 32C161.5 32 78.59 92.34 49.58 182.2c-5.438 16.81 3.797 34.88 20.61 40.28c16.89 5.5 34.88-3.812 40.3-20.59C130.9 138.5 189.4 96 256 96c50.5 0 96.26 24.55 124.4 64H336c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32V48C496 30.31 481.7 16 464 16zM441.8 289.6c-16.92-5.438-34.88 3.812-40.3 20.59C381.1 373.5 322.6 416 256 416c-50.5 0-96.25-24.55-124.4-64H176c17.67 0 32-14.31 32-32s-14.33-32-32-32h-128c-17.67 0-32 14.31-32 32v144c0 17.69 14.33 32 32 32s32-14.31 32-32v-74.09C119.9 445.5 184.6 480 255.1 480c94.45 0 177.4-60.34 206.4-150.2C467.9 313 458.6 294.1 441.8 289.6z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+]
+`;

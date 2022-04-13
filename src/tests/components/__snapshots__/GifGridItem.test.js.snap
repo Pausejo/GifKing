@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGridItem should show component correctly 1`] = `
+<div
+  className="card"
+  onClick={[Function]}
+>
+  <h2
+    className="title"
+  >
+    Hola
+  </h2>
+  <img
+    alt="Hola"
+    src="https://"
+  />
+</div>
+`;
